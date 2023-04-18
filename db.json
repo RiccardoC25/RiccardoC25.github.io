@@ -1,0 +1,17 @@
+{
+  "dati": {
+    "gameActive": true,
+    "currentPlayer": "X",
+    "gameState": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ]
+  }
+}

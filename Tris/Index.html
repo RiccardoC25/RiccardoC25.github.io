@@ -1,0 +1,32 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Tic Tac Toe</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body onload="starterFunction()">
+    <section>
+        <h1 class="gameTitle">Tic Tac Toe</h1>
+        <div class="gameContainer">
+            <div class="cell" onclick="handleCellPlayed(this, 0)"></div>
+            <div class="cell" onclick="handleCellPlayed(this, 1)"></div>
+            <div class="cell" onclick="handleCellPlayed(this, 2)"></div>
+            <div class="cell" onclick="handleCellPlayed(this, 3)"></div>
+            <div class="cell" onclick="handleCellPlayed(this, 4)"></div>
+            <div class="cell" onclick="handleCellPlayed(this, 5)"></div>
+            <div class="cell" onclick="handleCellPlayed(this, 6)"></div>
+            <div class="cell" onclick="handleCellPlayed(this, 7)"></div>
+            <div class="cell" onclick="handleCellPlayed(this, 8)"></div>
+        </div>
+        <h2 class="gameStatus"></h2>
+        <button class="gameRestart" onclick="restartGame()">Restart Game</button>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
+ 
